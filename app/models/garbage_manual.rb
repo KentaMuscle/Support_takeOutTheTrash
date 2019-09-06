@@ -1,0 +1,2 @@
+class GarbageManual < ApplicationRecord
+end
