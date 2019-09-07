@@ -11,6 +11,7 @@
     <% else %>
       <%= link_to "サインイン", new_user_registration_path %> |
       <%= link_to "ログイン", new_user_session_path %>
+      <%= link_to "Googleでログイン", user_google_oauth2_omniauth_authorize_path %>
     <% end %>
   </nav>
 </header>
