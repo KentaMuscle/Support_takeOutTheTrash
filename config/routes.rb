@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root to: "home#index"
+  #アプリケーションの前に表示されるwebサイト
+  root to: "introduction#top"
+  get 'introduction/information'
 
   # deviseコントローラー
   devise_for :users,
