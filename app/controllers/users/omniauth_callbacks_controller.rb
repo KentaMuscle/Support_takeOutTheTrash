@@ -21,7 +21,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
       session[:password] = @user.password
       session[:provider] = @user.provider
       session[:uid] = @user.uid
-      redirect_to new_user_registration_sns_path
+      redirect_to new_user_url
     end
   end
 
