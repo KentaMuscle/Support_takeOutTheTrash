@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   get 'home', to: "home#index"
   get 'home/index'
   get 'home/show'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'home/get_present_location'
 end

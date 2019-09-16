@@ -1,2 +1,6 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% if user_signed_in? %>
+  <p>Find me in app/views/home/index.html.erb</p>	  <p>以下から実行したい処理を選択してください</p>
+  <%= link_to "現在地取得", home_get_present_location_url %>
+<% else %>
+  <h1>Topページ</h1>
+<% end %>
