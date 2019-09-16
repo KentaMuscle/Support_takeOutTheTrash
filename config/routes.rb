@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   get 'home', to: "home#index"
   get 'home/index'
   get 'home/show'
-  get 'home/get_present_location'
+  get 'home/get_current_location'
 end

@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   def show
   end
 
-  def get_present_location
+  def get_current_location
 
   end
 end
