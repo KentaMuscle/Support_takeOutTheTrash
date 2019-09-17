@@ -1,0 +1,29 @@
+h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login{
+  background-color: lightskyblue;
+  display: inline-block;
+  margin-left: 38%;
+  padding: 40px;
+  .field{
+    text-align: center;
+    margin-bottom: 20px;
+    .label{
+      display: inline-block;
+      width: 80px;
+    }
+  }
+  .actions{
+    .button{
+      margin-top: 0px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+.actions{
+  text-align: center;
+}
