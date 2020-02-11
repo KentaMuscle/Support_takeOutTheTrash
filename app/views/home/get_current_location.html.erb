@@ -1,7 +1,12 @@
 <%= javascript_include_tag "current_location_by_address" %>
+<%= javascript_include_tag do %>
+  <%= @hello %> = console.log(document.getElementById('free').innerHTML);
+<% end %>
 
 <body>
 <h1>現在地取得</h1>
 <div id="map" style="width:400px; height:300px"></div>
 <input type="button" value="住所取得" id="submit-reverse-geocoding">
 <div id="free"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0kGUgycBx6YpedxuYsz5w1YE6Cy5CVEQ&callback=initMap"></script>
