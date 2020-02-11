@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'home/show'
   get 'home/get_current_location'
+  get 'home/my_trash_rule'
 end
